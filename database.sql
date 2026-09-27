@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS garage_vehicles (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    owner VARCHAR(50) NOT NULL,
+    plate VARCHAR(10) NOT NULL,
+    vehicle VARCHAR(50) NOT NULL,
+    stored INT DEFAULT 1
+);
